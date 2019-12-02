@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+}
+
+nav {
+    background-color:black;
+    padding: 7px;
+}
+
+nav a {
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid white;
+}
+
+div.wrapper {
+    width: 1200px;
+    margin:auto;
+}
+
+article {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+
+table {
+    width: 49%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+td.green {
+    background-color: #ccffcc;
+}
+
+td.blue {
+    background-color: #ccffff;
+}
